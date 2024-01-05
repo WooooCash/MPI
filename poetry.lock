@@ -15,7 +15,33 @@ files = [
 [package.extras]
 test = ["coverage (>=4.2)", "lxml", "pytest (>=5)", "pytest-cov", "pytest-mock"]
 
+[[package]]
+name = "pywavefront"
+version = "1.3.3"
+description = "Python library for importing Wavefront .obj files"
+category = "main"
+optional = false
+python-versions = ">=3.4"
+files = [
+    {file = "PyWavefront-1.3.3-py3-none-any.whl", hash = "sha256:ec79cadd046b168434b01031e574f4105f821d06cb8cf754801e4dc18076bbeb"},
+]
+
+[package.extras]
+visualization = ["pyglet"]
+
+[[package]]
+name = "quads"
+version = "1.1.0"
+description = "A pure Python Quadtree implementation."
+category = "main"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "quads-1.1.0-py3-none-any.whl", hash = "sha256:4f2a05381f07fdf6d61352b0893819b2c52ae2286211c74bd9639a28d6424540"},
+    {file = "quads-1.1.0.tar.gz", hash = "sha256:59c1d86e551a734ea83c61c185c84873cf604b54bbacdfdbce831067715ecc7e"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b3c97906f53a50cb108e7fb6650c0b4c99d49d4e4b5830c0ddc77a399cc04f22"
+content-hash = "d1e45fbb56a5b2e30e82414bef9becfca2984636e8053df768490cbcef9be158"
